@@ -1,0 +1,9 @@
+# gene: DEDDh_I_II_III_IV_V_VI_1 extract from CasFinder_res/hmmer_results/DEDDh_I_II_III_IV_V_VI_1.search_hmm.out hmm output
+# profile length= 160
+# i_evalue threshold= 0.010
+# coverage threshold= 0.400
+# hit_id	replicon_name	position_hit	hit_sequence_length	gene_name	i_eval	score	profile_coverage	sequence_coverage	begin	end
+OGCDPPDJ_00896	B13_annot	887	931	DEDDh_I_II_III_IV_V_VI_1	1.400e-45	153.400	0.994	0.169	7	163
+OGCDPPDJ_01481	B13_annot	1470	205	DEDDh_I_II_III_IV_V_VI_1	5.800e-15	53.800	0.988	0.810	9	174
+OGCDPPDJ_02680	B13_annot	2663	1454	DEDDh_I_II_III_IV_V_VI_1	4.900e-49	164.600	0.994	0.108	439	595
+OGCDPPDJ_03247	B13_annot	3230	234	DEDDh_I_II_III_IV_V_VI_1	8.900e-37	124.700	1.000	0.654	6	158

@@ -1,0 +1,6 @@
+# gene: recD_IV-D_1 extract from CasFinder_res/hmmer_results/recD_IV-D_1.search_hmm.out hmm output
+# profile length= 763
+# i_evalue threshold= 0.010
+# coverage threshold= 0.400
+# hit_id	replicon_name	position_hit	hit_sequence_length	gene_name	i_eval	score	profile_coverage	sequence_coverage	begin	end
+OGCDPPDJ_00361	B13_annot	353	798	recD_IV-D_1	6.200e-77	257.300	0.781	0.743	176	768

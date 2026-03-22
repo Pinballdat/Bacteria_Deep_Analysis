@@ -1,0 +1,91 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /home/datnguyen/Downloads/B13_KimCo_16122025/CRISPR-Cas_system/CasFinder_data/CasFinder/profiles/csf4_IV-A1_1.hmm
+# target sequence database:        ./B13_annot/B13_annot.faa
+# output directed to file:         CasFinder_res/hmmer_results/csf4_IV-A1_1.search_hmm.out
+# sequence reporting threshold:    E-value <= 0.1
+# number of worker threads:        1
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       csf4_IV-A1_1  [M=526]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence       Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------       -----------
+    1.2e-09   35.4   0.0      1e-08   32.3   0.0    2.1  2  OGCDPPDJ_00896  3'-5' exonuclease DinG
+     0.0001   19.1   0.0    0.00043   17.0   0.0    1.8  2  OGCDPPDJ_00920  putative ATP-dependent helicase DinG 
+
+
+Domain annotation for each sequence (and alignments):
+>> OGCDPPDJ_00896  3'-5' exonuclease DinG
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    0.1   0.0     0.026        58     154     177 ..     455     479 ..     401     497 .. 0.70
+   2 !   32.3   0.0   4.6e-12     1e-08     280     491 ..     668     896 ..     648     914 .. 0.72
+
+  Alignments for each domain:
+  == domain 1  score: 0.1 bits;  conditional E-value: 0.026
+    csf4_IV-A1_1 154 lef.LiiDEAhqLeaaaAsladkei 177
+                      +   iiDEAh  e aa    +k  
+  OGCDPPDJ_00896 455 ESGtFIIDEAHHFERAASEHLGKRA 479
+                     332489********99988777654 PP
+
+  == domain 2  score: 32.3 bits;  conditional E-value: 4.6e-12
+    csf4_IV-A1_1 280 edlwkRasesalvSgtLelpdiaGvltlqysrrvlsvPkdrlqflprvraewrvkdvrvlvPaaeap.dDse..AWLeaveslvrsa..eakGkt 369
+                     +++++R +  +l S+tL    + G     +   +l +     + +    +   ++ ++v++P   ++ +D+    ++++    ++    e++ k+
+  OGCDPPDJ_00896 668 DQFFARKNSVVLTSATLT---VEGSFQ--FMIERLGLSDFFPRTMRIESPFSYDERMQVMIPKEMKSiQDTGqpEFIQDTARYIELMakEKQPKI 757
+                     678888888889999988...667655..555556555544455544445556888999989876542454312467777777664345999*** PP
+
+    csf4_IV-A1_1 370 LvlatSyAtvra....laeslsdtGavviekgeklseaA...akygrkkkpiWLavgaAWtGlDtsv.plqrvviprlPferprsltlh...... 450
+                     Lvl tS+   +     l  ++s  G    ++g +        + +  +++ i L++   W G+D +   l  v+i rlPf+ p    +       
+  OGCDPPDJ_00896 758 LVLFTSHDMLKKvhqeLKHNMSASGIQLLAQGITGGSPGklmKTFKTSNQAILLGTNHFWEGVDFPGdELTTVMIVRLPFRSPDHPLHAakcela 852
+                     *******99876111155677888999999988876655466778889999************9875257899*********9865544233342 PP
+
+    csf4_IV-A1_1 451 ...aesrf.vdelneavrrlrqgvGRlvRkegavvkrivfadgrv 491
+                         ++ f    l eav  +rqg+GRl+R++g  +  i++ d r+
+  OGCDPPDJ_00896 853 rkkGKNPFqTVSLPEAVLTFRQGIGRLLRSAGDKGT-IIILDRRI 896
+                     222222231446789*****************9885.55666665 PP
+
+>> OGCDPPDJ_00920  putative ATP-dependent helicase DinG 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -1.0   0.0     0.055   1.2e+02     156     183 ..     253     280 ..     221     353 .. 0.76
+   2 !   17.0   0.0   1.9e-07   0.00043     350     481 ..     473     613 ..     459     632 .. 0.75
+
+  Alignments for each domain:
+  == domain 1  score: -1.0 bits;  conditional E-value: 0.055
+    csf4_IV-A1_1 156 fLiiDEAhqLeaaaAsladkeitlaaLn 183
+                      +++DE h+Le aa    +  ++   L+
+  OGCDPPDJ_00920 253 AVVFDEGHLLEFAAQKALTYRVKQSTLE 280
+                     4899*******99999888888888883 PP
+
+  == domain 2  score: 17.0 bits;  conditional E-value: 1.9e-07
+    csf4_IV-A1_1 350 eAWLeaveslvrsaeakGktLvlatSyAtvra...laeslsdtGavviekgeklseaAakygrkkkpiWLavgaAWtGlDtsv.plqrvviprlP 440
+                      A  + +e++   +  kG+tLvl +S+ + +    l+++   +  +  e +e++s    k+ ++++   L     W GlD +   l+ v i  lP
+  OGCDPPDJ_00920 473 AAEQKTAETIETIKRYKGRTLVLFPSFEELNEfkeLSAAWELPYPIFFEGDEEISSLVEKFQEEEE-TVLCSVHLWEGLDIPGdALKNVTIWSLP 566
+                     5555667777788899***********98876222666665588999**************99988.6799999******88536899******* PP
+
+    csf4_IV-A1_1 441 fe.rprsltlh...aesrfvdeln..eavrrlrqgvGRlvRkegavv 481
+                     f+ ++ ++t     a++   +e+       r+rqg+GRl+R+++  +
+  OGCDPPDJ_00920 567 FPpHDPVFTAKrngAKKDPFEEVDlpYMLLRVRQGIGRLIRSNQDSG 613
+                     *73233444444666666555554113567889********987655 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (526 nodes)
+Target sequences:                       4433  (1276326 residues searched)
+Passed MSV filter:                       135  (0.0304534); expected 88.7 (0.02)
+Passed bias filter:                      113  (0.0254906); expected 88.7 (0.02)
+Passed Vit filter:                        15  (0.00338371); expected 4.4 (0.001)
+Passed Fwd filter:                         2  (0.000451162); expected 0.0 (1e-05)
+Initial search space (Z):               4433  [actual number of targets]
+Domain search space  (domZ):               2  [number of targets reported over threshold]
+# CPU time: 0.06u 0.00s 00:00:00.06 Elapsed: 00:00:00.05
+# Mc/sec: 11705.65
+//
+[ok]

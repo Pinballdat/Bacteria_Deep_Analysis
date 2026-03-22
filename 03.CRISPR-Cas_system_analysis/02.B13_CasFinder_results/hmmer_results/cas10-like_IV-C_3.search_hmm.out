@@ -1,0 +1,49 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /home/datnguyen/Downloads/B13_KimCo_16122025/CRISPR-Cas_system/CasFinder_data/CasFinder/profiles/cas10-like_IV-C_3.hmm
+# target sequence database:        ./B13_annot/B13_annot.faa
+# output directed to file:         CasFinder_res/hmmer_results/cas10-like_IV-C_3.search_hmm.out
+# sequence reporting threshold:    E-value <= 0.1
+# number of worker threads:        1
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       Cas10-like_2_IVC  [M=578]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence       Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------       -----------
+      0.003   13.9   0.2     0.0032   13.8   0.2    1.0  1  OGCDPPDJ_00693  Transcription antitermination protein NusB
+
+
+Domain annotation for each sequence (and alignments):
+>> OGCDPPDJ_00693  Transcription antitermination protein NusB
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   13.8   0.2   7.3e-07    0.0032      33     113 ..      31     116 ..      10     129 .. 0.78
+
+  Alignments for each domain:
+  == domain 1  score: 13.8 bits;  conditional E-value: 7.3e-07
+  Cas10-like_2_IVC  33 alase.aslffagllhdilkpllkfek..tkk..dwkwkhlrevkvnskkvdvkdvlraaslpsnvdvdevidlikkhhdkeaeev 113
+                       al  e +  ff  l+h +l    +++   +k+  +wk   + +v+ +  ++   ++  a  +p nv ++e i+l k+  d++a ++
+    OGCDPPDJ_00693  31 ALDEEkTDPFFEQLVHGVLEHQDQLDEmiSKHlvNWKLDRIANVDRAILRLAAYEMAYAEDIPVNVSMNEAIELAKRFGDDKATKF 116
+                       44444144699*******9876655431123334999999****999999****************************99998764 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (578 nodes)
+Target sequences:                       4433  (1276326 residues searched)
+Passed MSV filter:                       147  (0.0331604); expected 88.7 (0.02)
+Passed bias filter:                       91  (0.0205279); expected 88.7 (0.02)
+Passed Vit filter:                         5  (0.0011279); expected 4.4 (0.001)
+Passed Fwd filter:                         1  (0.000225581); expected 0.0 (1e-05)
+Initial search space (Z):               4433  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.06u 0.00s 00:00:00.06 Elapsed: 00:00:00.05
+# Mc/sec: 14128.88
+//
+[ok]

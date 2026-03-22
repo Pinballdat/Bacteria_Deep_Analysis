@@ -1,0 +1,4 @@
+# macsyfinder 20251216.dev  (using MacSyLib 1.0.4 )
+# models : CasFinder-3.1.1
+# /home/datnguyen/anaconda3/envs/macsyfinder/bin/macsyfinder --db-type ordered_replicon --sequence-db ./B13_annot/B13_annot.faa --models-dir CasFinder_data/ --models CasFinder -o CasFinder_res -w 40
+# No Systems found
