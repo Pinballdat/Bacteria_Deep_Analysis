@@ -1,0 +1,101 @@
+VFClass,Virulence Factors,Related Genes,B13 (Prediction),Position
+Adherence,BslA,bslA,-,-
+Adherence,D-alanine-polyphosphoribitol ligase (Listeria),dltA,OGCDPPDJ_02258,gnl|Prokka|OGCDPPDJ_2: 814627-816138,None
+Adherence,Fibronectin-binding protein (Listeria),fbpA,OGCDPPDJ_02773,gnl|Prokka|OGCDPPDJ_3: 250949-252661,None
+Adherence,Flagella (Pseudomonas),fliP,OGCDPPDJ_02703,gnl|Prokka|OGCDPPDJ_3: 183267-183932,None
+Immune evasion,B. cereus exo-polysaccharide (BPS),bpsA,-,-
+Immune evasion,B. cereus exo-polysaccharide (BPS),bpsB,-,-
+Immune evasion,B. cereus exo-polysaccharide (BPS),bpsC,-,-
+Immune evasion,B. cereus exo-polysaccharide (BPS),bpsD,-,-
+Immune evasion,B. cereus exo-polysaccharide (BPS),bpsE,-,-
+Immune evasion,B. cereus exo-polysaccharide (BPS),bpsF,-,-
+Immune evasion,B. cereus exo-polysaccharide (BPS),bpsG,-,-
+Immune evasion,B. cereus exo-polysaccharide (BPS),bpsH,-,-
+Immune evasion,B. cereus exo-polysaccharide (BPS),bpsX,-,-
+Immune evasion,Hyaluronic acid (HA) capsule,hasA,-,-
+Immune evasion,Hyaluronic acid (HA) capsule,hasB,-,-
+Immune evasion,Hyaluronic acid (HA) capsule,hasC,-,-
+Immune evasion,Polyglutamic acid capsule,capA,OGCDPPDJ_01988,gnl|Prokka|OGCDPPDJ_2: 554713-555855,None
+Immune evasion,Polyglutamic acid capsule,capB,OGCDPPDJ_01990,gnl|Prokka|OGCDPPDJ_2: 556338-557519,None
+Immune evasion,Polyglutamic acid capsule,capC,OGCDPPDJ_01989,gnl|Prokka|OGCDPPDJ_2: 555874-556323,None
+Immune evasion,Polyglutamic acid capsule,capD,OGCDPPDJ_01326,gnl|Prokka|OGCDPPDJ_1: 1174863-1176626,None
+Immune evasion,Polyglutamic acid capsule,capE,-,-
+Immune evasion,Polysaccharide capsule,--,OGCDPPDJ_01351,gnl|Prokka|OGCDPPDJ_1: 1233680-1234573,None
+,,,OGCDPPDJ_01813,gnl|Prokka|OGCDPPDJ_2: 371129-372295
+,,,OGCDPPDJ_01824,gnl|Prokka|OGCDPPDJ_2: 382474-384270
+,,,OGCDPPDJ_01825,gnl|Prokka|OGCDPPDJ_2: 384529-385212
+,,,OGCDPPDJ_01979,gnl|Prokka|OGCDPPDJ_2: 544481-545431
+,,,OGCDPPDJ_02029,gnl|Prokka|OGCDPPDJ_2: 590341-591663
+,,,OGCDPPDJ_02030,gnl|Prokka|OGCDPPDJ_2: 591858-592622
+,,,OGCDPPDJ_02031,gnl|Prokka|OGCDPPDJ_2: 592671-593357
+,,,OGCDPPDJ_02032,gnl|Prokka|OGCDPPDJ_2: 593377-594123
+,,,OGCDPPDJ_03155,gnl|Prokka|OGCDPPDJ_3: 610405-611352
+,,,OGCDPPDJ_03600,gnl|Prokka|OGCDPPDJ_4: 2692-3639
+Immune evasion,Capsule (Streptococcus),cps4I,OGCDPPDJ_01966,gnl|Prokka|OGCDPPDJ_2: 526451-527593,None
+Immune evasion,LOS (Campylobacter),--,OGCDPPDJ_00512,gnl|Prokka|OGCDPPDJ_1: 498277-498975,None
+Iron acquisition,Bacillibactin,dhbA,OGCDPPDJ_01534,gnl|Prokka|OGCDPPDJ_2: 113043-113828,None
+Iron acquisition,Bacillibactin,dhbB,OGCDPPDJ_01531,gnl|Prokka|OGCDPPDJ_2: 109207-110145,None
+Iron acquisition,Bacillibactin,dhbC,OGCDPPDJ_01533,gnl|Prokka|OGCDPPDJ_2: 111821-113017,None
+Iron acquisition,Bacillibactin,dhbE,OGCDPPDJ_01532,gnl|Prokka|OGCDPPDJ_2: 110173-111792,None
+Iron acquisition,Bacillibactin,dhbF,OGCDPPDJ_01530,gnl|Prokka|OGCDPPDJ_2: 102051-109187,None
+Iron acquisition,Hal,hal,-,-
+Iron acquisition,IlsA,ilsA,-,-
+Iron acquisition,Petrobactin,asbA,-,-
+Iron acquisition,Petrobactin,asbB,-,-
+Iron acquisition,Petrobactin,asbC,-,-
+Iron acquisition,Petrobactin,asbD,-,-
+Iron acquisition,Petrobactin,asbE,-,-
+Iron acquisition,Petrobactin,asbF,-,-
+Regulation,AcpAB,acpA,-,-
+Regulation,AcpAB,acpB,-,-
+Regulation,AtxA,atxA,-,-
+Regulation,PagR-XO1,pagR-XO1,-,-
+Regulation,PagR-XO2,pagR-XO2,-,-
+Regulation,PlcR-PapR quorum sensing,papR,-,-
+Regulation,PlcR-PapR quorum sensing,plcR,-,-
+Regulation,Carbon storage regulator A (Legionella),csrA,OGCDPPDJ_01927,gnl|Prokka|OGCDPPDJ_2: 491750-491974,None
+Regulation,CheA/CheY (Listeria),cheY,OGCDPPDJ_01377,gnl|Prokka|OGCDPPDJ_1: 1256905-1257267,None
+,,,OGCDPPDJ_02705,gnl|Prokka|OGCDPPDJ_3: 184599-184961,None
+Secretion system,Type VII secretion system,-,-,-
+Secretion system,Type VII secretion system,-,-,-
+Secretion system,Type VII secretion system,essC,-,-
+Secretion system,Type VII secretion system,esxB,-,-
+Secretion system,Type VII secretion system,esxL,-,-
+Secretion system,Type III secretion system ((Chlamydia),cdsN,OGCDPPDJ_02714,gnl|Prokka|OGCDPPDJ_3: 191596-192912,None
+Toxin,Anthrax toxin,cya,-,-
+Toxin,Anthrax toxin,lef,-,-
+Toxin,Anthrax toxin,pagA,-,-
+Toxin,Anthrolysin O/Cereolysin O/Hemolysin I,alo,-,-
+Toxin,Cereulide,cesA,-,-
+Toxin,Cereulide,cesB,-,-
+Toxin,Cereulide,cesC,-,-
+Toxin,Cereulide,cesD,-,-
+Toxin,Cereulide,cesH,-,-
+Toxin,Cereulide,cesP,-,-
+Toxin,Cereulide,cesT,-,-
+Toxin,Certhrax,cer,-,-
+Toxin,Cytotoxin K (Hemolysin IV),cytK,-,-
+Toxin,Hemolysin II,hlyII,-,-
+Toxin,Hemolysin III homolog,--,-,-
+Toxin,Hemolysin III,hlyIII,OGCDPPDJ_00958,gnl|Prokka|OGCDPPDJ_1: 883435-884076,None
+Toxin,Hemolytic enterotoxin HBL,hblA,-,-
+Toxin,Hemolytic enterotoxin HBL,hblC,-,-
+Toxin,Hemolytic enterotoxin HBL,hblD,-,-
+Toxin,Insecticidal crystalline toxins,cry,-,-
+Toxin,Insecticidal crystalline toxins,cyt,-,-
+Toxin,Insecticidal crystalline toxins,vip,-,-
+Toxin,Non-hemolytic enterotoxin (Nhe),nheA,-,-
+Toxin,Non-hemolytic enterotoxin (Nhe),nheB,-,-
+Toxin,Non-hemolytic enterotoxin (Nhe),nheC,-,-
+Acid resistance,Urease ((Helicobacter),ureB,OGCDPPDJ_02070,gnl|Prokka|OGCDPPDJ_2: 627589-629298,None
+Antiphagocytosis,Capsular polysaccharide (Vibrio),wcaJ,OGCDPPDJ_01815,gnl|Prokka|OGCDPPDJ_2: 372947-373555,None
+Antiphagocytosis,Capsule (Enterococcus),--,OGCDPPDJ_02685,gnl|Prokka|OGCDPPDJ_3: 166799-167581,None
+Antiphagocytosis,Capsule (Klebsiella),gnd,OGCDPPDJ_02428,gnl|Prokka|OGCDPPDJ_2: 989535-990941,None
+Copper uptake,Copper exporter (Mycobacterium),ctpV,OGCDPPDJ_01689,gnl|Prokka|OGCDPPDJ_2: 262705-265116,None
+Iron uptake,Achromobactin biosynthesis and transport (Pseudomonas),cbrD,OGCDPPDJ_04198,gnl|Prokka|OGCDPPDJ_5: 175050-175850,None
+Iron uptake,Mycobactin (Mycobacterium),mbtH,OGCDPPDJ_01529,gnl|Prokka|OGCDPPDJ_2: 101826-102035,None
+Iron uptake,Periplasmic binding protein-dependent ABC transport systems (Vibrio),vctC,OGCDPPDJ_03800,gnl|Prokka|OGCDPPDJ_4: 185882-186640,None
+Peptidoglycan modification,OatA (Listeria),oatA,OGCDPPDJ_00399,gnl|Prokka|OGCDPPDJ_1: 399418-401322,None
+Stress adaptation,Catalase (Neisseria),katA,OGCDPPDJ_03582,gnl|Prokka|OGCDPPDJ_3: 996866-998317,Yes
+Surface protein anchoring,Lipoprotein diacylglyceryl transferase (Listeria),lgt,OGCDPPDJ_01893,gnl|Prokka|OGCDPPDJ_2: 453157-453966,None
+Surface protein anchoring,Lipoprotein-specific signal peptidase II (Listeria),lspA,OGCDPPDJ_02792,gnl|Prokka|OGCDPPDJ_3: 271580-272044,None
