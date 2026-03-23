@@ -4,3 +4,6 @@
 03.CRISPR-Cas_system_analysis/macsyfinder/
 04.GenomeIsland_analysis/GenomicIslandPrediction/
 04.GenomeIsland_analysis/GI*
+05.Stress_response_environmental_adaptation_genes_analysis/*.py
+05.Stress_response_environmental_adaptation_genes_analysis/B13_kofamscan/
+05.Stress_response_environmental_adaptation_genes_analysis/*.tsv
