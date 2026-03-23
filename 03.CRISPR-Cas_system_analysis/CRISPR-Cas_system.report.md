@@ -100,7 +100,7 @@ b/ Các Type chính
 
 - Type II (Cas9) là nền tảng cho công nghệ chỉnh sửa gene.
 
-### Quy trình phân tích 
+### Quy trình phân tích
 
 #### Bước 1 – Phát hiện CRISPR array (Repeat–Spacer)
 
@@ -118,7 +118,7 @@ Chỉ giữ array evidence ≥ 3 cho phân tích nghiêm túc.
 3. Kết quả thực tế mẫu B13
 
 a/ Bảng tóm tắt CRISPR arrays
-_
+
 |Trường|Ý nghĩa|Array 1|Array 2|
 |------|-------|-------|-------|
 |CRISPR ID|Mã định danh array|NODE_1_length_1303931_cov_187_300689_1|NODE_5_length_298854_cov_229_536410_1|
@@ -135,7 +135,6 @@ _
 |Spacer Length|Độ dài spacer|26 bp|56 bp|
 |Conservation Spacer|Độ bảo tồn của Spacer|100%|100%|
 |Evidence level|Độ tin cậy (1–4)|1|1|
-
 
 #### Bước 2 – Phát hiện và phân loại Cas genes
 
@@ -172,5 +171,5 @@ Công cụ: CRISPRCasFinder, MacSyFinder + CasFinder
 
 ### Kết quả
 
-- Hai array đượcc phát hiện bằng CRISPRCasFinder chỉ là CRISPR-like motifs mức thấp, không đủ tiêu chuẩn sinh học để coi là CRISPR array hay CRISPR–Cas system.
+- Hai array được phát hiện bằng CRISPRCasFinder chỉ là CRISPR-like motifs mức thấp, không đủ tiêu chuẩn sinh học để coi là CRISPR array hay CRISPR–Cas system.
 - Macsyfinder với database là CasFinder không phát hiện được hệ thống nào.
