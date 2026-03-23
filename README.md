@@ -5,41 +5,43 @@ This repository contains the comparative genomics analysis workflow and results 
 ## Directory Structure
 
 ### [01.Pangenome_analysis_full/](./01.Pangenome_analysis_full/)
-Focuses on the core and accessory genome analysis.
-- `01.Prokka/`: Genome annotation results used as input for the pangenome pipeline.
-- `02.Roary/`: Roary output files and gene presence/absence matrices.
-- `metadata.jsonl` and `metadata.tsv`: Metadata for all genome in pangenome analysis
-- `Convert_jsonl_to_tsv.py`: Custom scripts for processing pangenome metadata.
+Focuses on the core and accessory genome analysis of the complete set of samples.
+- `01.Prokka/`: Genome annotation results (.gff) used as input for the pangenome pipeline.
+- `02.Roary/`: Roary output files including gene presence/absence matrices, core/accessory alignments, and summary plots.
+- `metadata.jsonl` and `metadata.tsv`: Metadata for all genomes in pangenome analysis.
+- `Convert_jsonl_to_tsv.py`: Custom script for processing pangenome metadata.
 
-### [Pangenome_plot/](./Pangenome_plot/)
-Visualization and classification of pangenome components.
-- `roary/`: Detailed plots (pie charts, distribution plots) generated from Roary results.
-- `COG_classifier/`: Functional classification of the pangenome using Clusters of Orthologous Groups.
-- `Visualization.py`: Main script for generating pangenome-related figures.
+### [02.Pangenome_analysis_20samples/](./02.Pangenome_analysis_20samples/)
+Pangenome analysis focused on a subset of 20 samples.
+- `01.Genome_data/`: Input fasta files for the selected samples.
+- `02.Annotated_data/`: Annotated gff files.
+- `03.Roary_data/`: Roary analysis results for this subset.
 
-### 3. [CRISPR-Cas_system/](./CRISPR-Cas_system/)
-Identification and characterization of immune systems.
-- `CasFinder_res/` & `macsyfinder/`: Raw outputs from Cas-system detection tools.
-- `CRISPR-Cas_system.report.md`: Summary report of detected CRISPR arrays and Cas proteins.
-- Contains B13 genome and protein sequences used for the search.
+### [03.CRISPR-Cas_system_analysis/](./03.CRISPR-Cas_system_analysis/)
+Identification and characterization of immune systems in strain B13.
+- `01.B13_annotated_data/`: B13 genome and protein sequences.
+- `02.B13_CasFinder_results/`: Results from CasFinder, including detected systems and candidates.
 
-### 4. [GenomeIsland_PathogenecityIsland_HGT/](./GenomeIsland_PathogenecityIsland_HGT/)
-Analysis of horizontal gene transfer and genomic islands (GIs).
-- `GenomicIslandPrediction/` & `B13_treasuraisland/`: Results from GI prediction algorithms.
-- `VF_results.tsv`: Identification of virulence factors within the genome.
+### [04.GenomeIsland_analysis/](./04.GenomeIsland_analysis/)
+Analysis of horizontal gene transfer and genomic islands (GIs) for strain B13.
+- `02.B13_TreasuraIsland_data/`: Results from GI prediction algorithms.
+- `03.B13_IslandViewer_data/`: Genomic island predictions from IslandViewer.
+- `05.B13_Virulence_Factors/`: Identification of virulence factors.
 - `GenomeIsland_PathogenecityIsland_HGT.report.md`: Integrated analysis of MGEs and pathogenicity potential.
 
-### 5. [Predict_Stress_Response_Environmental_Adaptation_Genes/](./Predict_Stress_Response_Environmental_Adaptation_Genes/)
-Functional profiling for environmental fitness.
-- `B13_eggnog/` / `B13_kofamscan/`: Functional annotations using EggNOG-mapper and KofamScan.
-- `B13_COG.eggnog.filtered.tsv`: Curated list of genes involved in stress response.
+### [05.Stress_response_environmental_adaptation_genes_analysis/](./05.Stress_response_environmental_adaptation_genes_analysis/)
+Functional profiling for environmental fitness of strain B13.
+- `02.B13_emapper_data/`: Functional annotations using EggNOG-mapper.
+- `03.B13_COG_data/`: COG classification results and distribution plots.
+- `04.B13_GO_data/`: Gene Ontology analysis and visualizations.
+- `05.B13_KEGG_data/`: KEGG pathway mapping and analysis results.
 - `Predict_Stress_Response_Environmental_Adaptation_Genes.md`: Detailed report on genes contributing to stress tolerance and adaptation.
 
 ## Methodology & Tools
 - **Annotation:** Prokka, EggNOG-mapper, KofamScan.
 - **Pangenomics:** Roary.
 - **Defense Systems:** CasFinder, MacSyFinder.
-- **MGEs:** TreasureIsland, Proksee.
+- **MGEs:** TreasureIsland, IslandViewer, VFDB.
 - **Data Processing:** Python (Pandas, Matplotlib, Seaborn).
 
 ---

@@ -1,0 +1,6 @@
+# gene: WYL_I_II_III_IV_V_VI_1 extract from CasFinder_res/hmmer_results/WYL_I_II_III_IV_V_VI_1.search_hmm.out hmm output
+# profile length= 313
+# i_evalue threshold= 0.010
+# coverage threshold= 0.400
+# hit_id	replicon_name	position_hit	hit_sequence_length	gene_name	i_eval	score	profile_coverage	sequence_coverage	begin	end
+OGCDPPDJ_01235	B13_annot	1226	313	WYL_I_II_III_IV_V_VI_1	3.000e-91	304.200	0.984	0.997	1	312

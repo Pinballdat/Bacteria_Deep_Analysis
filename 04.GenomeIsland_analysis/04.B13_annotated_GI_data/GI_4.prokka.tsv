@@ -1,0 +1,70 @@
+contig	type	start	stop	strand	ID	name	product
+Contig_1	CDS	470277	470627	-	OGCDPPDJ_00474	xre_1	HTH-type transcriptional regulator Xre
+Contig_1	CDS	470804	471034	+	OGCDPPDJ_00475		hypothetical protein
+Contig_1	CDS	471031	471204	+	OGCDPPDJ_00476		hypothetical protein
+Contig_1	CDS	471278	471847	+	OGCDPPDJ_00477		hypothetical protein
+Contig_1	CDS	471844	472101	+	OGCDPPDJ_00478		hypothetical protein
+Contig_1	CDS	472098	472271	+	OGCDPPDJ_00479		hypothetical protein
+Contig_1	CDS	472231	472425	+	OGCDPPDJ_00480	yqaI	putative protein YqaI
+Contig_1	CDS	472529	473485	+	OGCDPPDJ_00481		hypothetical protein
+Contig_1	CDS	473488	474342	+	OGCDPPDJ_00482	recT	Protein RecT
+Contig_1	CDS	474395	475096	+	OGCDPPDJ_00483		hypothetical protein
+Contig_1	CDS	475059	475919	+	OGCDPPDJ_00484		hypothetical protein
+Contig_1	CDS	475916	476059	+	OGCDPPDJ_00485		hypothetical protein
+Contig_1	CDS	476155	476583	+	OGCDPPDJ_00486		hypothetical protein
+Contig_1	CDS	476665	476871	+	OGCDPPDJ_00487		hypothetical protein
+Contig_1	CDS	476938	477591	+	OGCDPPDJ_00488		hypothetical protein
+Contig_1	CDS	477682	478137	+	OGCDPPDJ_00489		hypothetical protein
+Contig_1	CDS	478282	478470	+	OGCDPPDJ_00490		hypothetical protein
+Contig_1	CDS	478994	479713	+	OGCDPPDJ_00491		hypothetical protein
+Contig_1	CDS	479706	481001	+	OGCDPPDJ_00492		hypothetical protein
+Contig_1	CDS	481005	482537	+	OGCDPPDJ_00493		hypothetical protein
+Contig_1	CDS	482534	483445	+	OGCDPPDJ_00494		hypothetical protein
+Contig_1	CDS	483501	484277	+	OGCDPPDJ_00495		hypothetical protein
+Contig_1	CDS	484364	485338	+	OGCDPPDJ_00496	yqbD_1	putative protein YqbD
+Contig_1	CDS	485357	486292	+	OGCDPPDJ_00497	xkdG_1	Phage-like element PBSX protein XkdG
+Contig_1	CDS	486303	486614	+	OGCDPPDJ_00498	yqbF	putative protein YqbF
+Contig_1	CDS	486618	487013	+	OGCDPPDJ_00499	yqbG_1	putative protein YqbG
+Contig_1	CDS	487010	487372	+	OGCDPPDJ_00500	xkdH_1	Phage-like element PBSX protein XkdH
+Contig_1	CDS	487369	487872	+	OGCDPPDJ_00501		hypothetical protein
+Contig_1	CDS	487885	488322	+	OGCDPPDJ_00502		hypothetical protein
+Contig_1	CDS	488322	488510	+	OGCDPPDJ_00503		hypothetical protein
+Contig_1	CDS	488511	489911	+	OGCDPPDJ_00504		hypothetical protein
+Contig_1	CDS	489914	490357	+	OGCDPPDJ_00505	xkdM_1	Phage-like element PBSX protein XkdM
+Contig_1	CDS	490891	491340	+	OGCDPPDJ_00506	yqbN_1	putative protein YqbN
+Contig_1	CDS	491340	491519	+	OGCDPPDJ_00507		hypothetical protein
+Contig_1	CDS	491522	496279	+	OGCDPPDJ_00508	yqbO_1	putative protein YqbO
+Contig_1	CDS	496224	496931	+	OGCDPPDJ_00509		hypothetical protein
+Contig_1	CDS	496944	497924	+	OGCDPPDJ_00510		hypothetical protein
+Contig_1	CDS	497921	498187	+	OGCDPPDJ_00511		hypothetical protein
+Contig_1	CDS	498277	498975	+	OGCDPPDJ_00512	ygeA	L-aspartate/glutamate-specific racemase
+Contig_1	CDS	499077	499502	+	OGCDPPDJ_00513		hypothetical protein
+Contig_1	CDS	499495	500541	+	OGCDPPDJ_00514		hypothetical protein
+Contig_1	CDS	500525	501103	+	OGCDPPDJ_00515		hypothetical protein
+Contig_1	CDS	501100	501372	+	OGCDPPDJ_00516		hypothetical protein
+Contig_1	CDS	501376	502470	+	OGCDPPDJ_00517		hypothetical protein
+Contig_1	CDS	502480	502821	+	OGCDPPDJ_00518	xkdW_1	Phage-like element PBSX protein XkdW
+Contig_1	CDS	502818	502982	+	OGCDPPDJ_00519		hypothetical protein
+Contig_1	CDS	503069	503962	+	OGCDPPDJ_00520		hypothetical protein
+Contig_1	CDS	504007	504429	+	OGCDPPDJ_00521		hypothetical protein
+Contig_1	CDS	504474	505292	+	OGCDPPDJ_00522	cwlA_1	N-acetylmuramoyl-L-alanine amidase CwlA
+Contig_1	CDS	505457	505936	+	OGCDPPDJ_00523		hypothetical protein
+Contig_1	CDS	505952	506314	+	OGCDPPDJ_00524		hypothetical protein
+Contig_1	CDS	506311	506457	-	OGCDPPDJ_00525		hypothetical protein
+Contig_1	CDS	506575	507153	-	OGCDPPDJ_00526	yqcF	Antitoxin YqcF
+Contig_1	CDS	507168	508763	-	OGCDPPDJ_00527	yqcG_1	Ribonuclease YqcG
+Contig_1	CDS	508879	509292	-	OGCDPPDJ_00528		hypothetical protein
+Contig_1	CDS	509402	509536	-	OGCDPPDJ_00529		hypothetical protein
+Contig_1	CDS	509526	510662	-	OGCDPPDJ_00530	rapA_1	Response regulator aspartate phosphatase A
+Contig_1	CDS	510961	511626	+	OGCDPPDJ_00531		hypothetical protein
+Contig_1	CDS	511703	512050	+	OGCDPPDJ_00532		hypothetical protein
+Contig_1	CDS	512101	512976	+	OGCDPPDJ_00533		hypothetical protein
+Contig_1	CDS	513507	514502	-	OGCDPPDJ_00534	yhfP_1	Putative quinone oxidoreductase YhfP
+Contig_1	CDS	514660	515253	+	OGCDPPDJ_00535	ttgR	HTH-type transcriptional regulator TtgR
+Contig_1	CDS	515795	516661	+	OGCDPPDJ_00536		hypothetical protein
+Contig_1	CDS	516736	517158	+	OGCDPPDJ_00537		hypothetical protein
+Contig_1	CDS	517187	517657	+	OGCDPPDJ_00538		hypothetical protein
+Contig_1	CDS	517971	518735	+	OGCDPPDJ_00539		hypothetical protein
+Contig_1	CDS	519106	519423	+	OGCDPPDJ_00540	arsR	Arsenical resistance operon repressor
+Contig_1	CDS	519484	519924	+	OGCDPPDJ_00541	cadI	Cadmium-induced protein CadI
+Contig_1	CDS	519947	520987	+	OGCDPPDJ_00542	acr3	Arsenical-resistance protein Acr3

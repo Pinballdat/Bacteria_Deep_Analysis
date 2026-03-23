@@ -1,0 +1,108 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /home/datnguyen/Downloads/B13_KimCo_16122025/CRISPR-Cas_system/CasFinder_data/CasFinder/profiles/DEDDh_I_II_III_IV_V_VI_1.hmm
+# target sequence database:        ./B13_annot/B13_annot.faa
+# output directed to file:         CasFinder_res/hmmer_results/DEDDh_I_II_III_IV_V_VI_1.search_hmm.out
+# model-specific thresholding:     GA cutoffs
+# number of worker threads:        1
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       DEDDh_I_II_III_IV_V_VI_1  [M=160]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence       Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------       -----------
+    1.3e-49  166.5   0.3    4.9e-49  164.6   0.2    2.1  1  OGCDPPDJ_02680  DNA polymerase III PolC-type
+    7.2e-46  154.3   0.0    1.4e-45  153.4   0.0    1.5  1  OGCDPPDJ_00896  3'-5' exonuclease DinG
+    6.7e-37  125.1   0.0    8.9e-37  124.7   0.0    1.2  1  OGCDPPDJ_03247  3'-5' exonuclease DinG
+    4.9e-15   54.0   0.0    5.8e-15   53.8   0.0    1.1  1  OGCDPPDJ_01481  hypothetical protein
+
+
+Domain annotation for each sequence (and alignments):
+>> OGCDPPDJ_02680  DNA polymerase III PolC-type
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  164.6   0.2   4.4e-52   4.9e-49       1     159 [.     439     595 ..     439     596 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 164.6 bits;  conditional E-value: 4.4e-52
+  DEDDh_I_II_III_IV_V_VI_1   1 vvlDtETTGldpstdrIieiaavkvengielvesfetlvnpgrpippeaaaihgiteemladapsfeevleellaflkgrvlvaH 85 
+                               vv+D+ETTGl++  d Iie+aavkv++g e++++fe + np+rp ++ +++++git++ml+dap++ +v++++++++++++lvaH
+            OGCDPPDJ_02680 439 VVFDVETTGLSAVYDTIIELAAVKVKGG-EIIDKFEAFANPHRPLSATIIELTGITDDMLQDAPDVVDVIRDFREWIGDDILVAH 522
+                               79*************************9.******************************************************** PP
+
+  DEDDh_I_II_III_IV_V_VI_1  86 nasfDlrflnaelrrlg.lpllknpwiDtlrlarallprlsskklkllklaallgiplegaHrAlaDalataell 159
+                               nasfD++fln ++++l    + knp+iDtl+l r l+p+ ++++l++l  +++++i+l+++HrA +D++ata ll
+            OGCDPPDJ_02680 523 NASFDMGFLNVAYKKLLeVDKAKNPVIDTLELGRFLYPEFKNHRLNTL--CKKFDIELTQHHRAIYDTEATAYLL 595
+                               ****************99*****************************9..9*********************998 PP
+
+>> OGCDPPDJ_00896  3'-5' exonuclease DinG
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  153.4   0.0   1.2e-48   1.4e-45       1     159 [.       7     163 ..       7     164 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 153.4 bits;  conditional E-value: 1.2e-48
+  DEDDh_I_II_III_IV_V_VI_1   1 vvlDtETTGldp.stdrIieiaavkvengielvesfetlvnpgrpippeaaaihgiteemladapsfeevleellaflkgrvlva 84 
+                               vv+D+ETTG +p + d+Ii+iaav++eng +++e+f+ ++np+++ip+ +++++gi+++m++++++fe v+ee+ ++l+g+++va
+            OGCDPPDJ_00896   7 VVIDVETTGNSPkKGDKIIQIAAVVIENG-QITERFSKYINPNKSIPAFIEQLTGISNQMVENEQPFEAVAEEVFQLLDGAYFVA 90 
+                               79**********899*************9.******************************************************* PP
+
+  DEDDh_I_II_III_IV_V_VI_1  85 HnasfDlrflnaelrrlglpllknpwiDtlrlarallprlsskklkllklaallgiplegaHrAlaDalataell 159
+                               Hn+ fDl+f+++el+++g++l++++++Dt++l+r ++p+ +++kl  l   ++l++ ++++HrA +Da++t  ++
+            OGCDPPDJ_00896  91 HNIHFDLGFVKYELHKAGFQLPDCEVLDTVELSRIVFPGFEGYKLTEL--SEELQLRHDQPHRADSDAEVTGLIF 163
+                               ***********************************************9..8********************9887 PP
+
+>> OGCDPPDJ_03247  3'-5' exonuclease DinG
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  124.7   0.0     8e-40   8.9e-37       1     160 []       6     158 ..       6     158 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 124.7 bits;  conditional E-value: 8e-40
+  DEDDh_I_II_III_IV_V_VI_1   1 vvlDtETTGldpstdrIieiaavkvengielvesfetlv..npgrpippeaaaihgiteemladapsfeevleellaflkgrvlv 83 
+                               vv+D+ETTGld + ++I+ei+a+k+++ ++++++f+t+v  + gr+ p+ +++++git ++l++ap+  e+le+l +f++++v+v
+            OGCDPPDJ_03247   6 VVIDLETTGLDYKSEQITEIGAIKIDESFNEIDRFHTMValEEGRELPEFITKLTGITAADLEGAPTETEALEKLNEFIGSAVVV 90 
+                               79***********************************9833578999************************************** PP
+
+  DEDDh_I_II_III_IV_V_VI_1  84 aHnasfDlrflnaelrrlglpllknpwiDtlrlarallprlsskklkllklaallgiplegaHrAlaDalataelll 160
+                               a na+fDl+f+ +         +++++++t ++ar ++p+ls++ ++ +   ++ gi+leg+HrAl+D++at e+++
+            OGCDPPDJ_03247  91 AQNAPFDLSFISRGGI------EPKRFYCTRAMARFVEPELSASLKDVV---KRNGISLEGHHRALNDVEATIEVFK 158
+                               **************87......7********************999998...9**********************95 PP
+
+>> OGCDPPDJ_01481  hypothetical protein
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   53.8   0.0   5.2e-18   5.8e-15       3     160 .]       9     174 ..       7     174 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 53.8 bits;  conditional E-value: 5.2e-18
+  DEDDh_I_II_III_IV_V_VI_1   3 lDtETTGldp......stdrIieiaavkvengielvesfetlvnpgrpippeaaai..hgiteemladapsfeevleellaflkg 79 
+                               +D+E T  d         ++Iie ++vk  ++ e+ve+f+++v+p+++ +          it++++ ++++fe+ +++l ++  +
+            OGCDPPDJ_01481   9 IDFEFTMPDGkyspqnFFPEIIEAGIVKSIDD-EVVETFSSYVRPKKFPKLTKRCKsfLKITQKQVDEGMRFEDFIRKLNELDPE 92 
+                               56666655555555555589************.***************9988888899************************999 PP
+
+  DEDDh_I_II_III_IV_V_VI_1  80 ..rvlvaHnasfDlrflnaelrrlg.lpllknpwiDtlrlarallprlsskklkllklaallgiplegaHrAlaDalataelll 160
+                                 ++++ +  ++D+++l++ +      +++k ++ D    +++++++++ ++l +++ +++ +  ++ +H Al+Dal++++l++
+            OGCDPPDJ_01481  93 knSTIITWG-NMDMKVLKQNCMFNHiPFPFKGEMRDLSLEYKNFFGDRTLTGLWKAA-EEYGDSGTGTHHKALDDALTAYKLFK 174
+                               977777776.9**********97668999************************9995.99999999***************995 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (160 nodes)
+Target sequences:                       4433  (1276326 residues searched)
+Passed MSV filter:                        95  (0.0214302); expected 88.7 (0.02)
+Passed bias filter:                       75  (0.0169186); expected 88.7 (0.02)
+Passed Vit filter:                         6  (0.00135349); expected 4.4 (0.001)
+Passed Fwd filter:                         6  (0.00135349); expected 0.0 (1e-05)
+Initial search space (Z):               4433  [actual number of targets]
+Domain search space  (domZ):               4  [number of targets reported over threshold]
+# CPU time: 0.04u 0.00s 00:00:00.04 Elapsed: 00:00:00.03
+# Mc/sec: 6107.89
+//
+[ok]

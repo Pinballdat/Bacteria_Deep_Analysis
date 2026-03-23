@@ -1,0 +1,40 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /home/datnguyen/Downloads/B13_KimCo_16122025/CRISPR-Cas_system/CasFinder_data/CasFinder/profiles/cas12f3_V-F_1.hmm
+# target sequence database:        ./B13_annot/B13_annot.faa
+# output directed to file:         CasFinder_res/hmmer_results/cas12f3_V-F_1.search_hmm.out
+# model-specific thresholding:     GA cutoffs
+# number of worker threads:        1
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       cas12f3_V-F_1  [M=503]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Domain annotation for each sequence (and alignments):
+
+   [No targets detected that satisfy reporting thresholds]
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (503 nodes)
+Target sequences:                       4433  (1276326 residues searched)
+Passed MSV filter:                       193  (0.0435371); expected 88.7 (0.02)
+Passed bias filter:                       76  (0.0171441); expected 88.7 (0.02)
+Passed Vit filter:                         4  (0.000902323); expected 4.4 (0.001)
+Passed Fwd filter:                         0  (0); expected 0.0 (1e-05)
+Initial search space (Z):               4433  [actual number of targets]
+Domain search space  (domZ):               0  [number of targets reported over threshold]
+# CPU time: 0.04u 0.00s 00:00:00.04 Elapsed: 00:00:00.03
+# Mc/sec: 17225.11
+//
+[ok]

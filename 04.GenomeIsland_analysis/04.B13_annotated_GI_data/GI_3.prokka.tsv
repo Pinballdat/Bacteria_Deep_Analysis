@@ -1,0 +1,169 @@
+contig	type	start	stop	strand	id	name	product
+Contig_1	CDS	896034	896567	+	OGCDPPDJ_00973		hypothetical protein
+Contig_1	CDS	896692	897582	-	OGCDPPDJ_00974	yokF	SPbeta prophage-derived endonuclease YokF
+Contig_1	CDS	897765	898016	+	OGCDPPDJ_00975		hypothetical protein
+Contig_1	CDS	898104	898478	+	OGCDPPDJ_00976		hypothetical protein
+Contig_1	CDS	898774	900660	+	OGCDPPDJ_00977		hypothetical protein
+Contig_1	CDS	900673	901131	+	OGCDPPDJ_00978		hypothetical protein
+Contig_1	CDS	901187	901768	+	OGCDPPDJ_00979		hypothetical protein
+Contig_1	CDS	902315	903295	-	OGCDPPDJ_00980		hypothetical protein
+Contig_1	CDS	903463	903783	+	OGCDPPDJ_00981		hypothetical protein
+Contig_1	CDS	903860	904078	+	OGCDPPDJ_00982		hypothetical protein
+Contig_1	CDS	904120	904296	-	OGCDPPDJ_00983		hypothetical protein
+Contig_1	CDS	904286	905422	-	OGCDPPDJ_00984	rapA_3	Response regulator aspartate phosphatase A
+Contig_1	CDS	905550	905801	-	OGCDPPDJ_00985		hypothetical protein
+Contig_1	CDS	905822	906214	-	OGCDPPDJ_00986		hypothetical protein
+Contig_1	CDS	906330	907397	-	OGCDPPDJ_00987		hypothetical protein
+Contig_1	CDS	907551	909425	-	OGCDPPDJ_00988		hypothetical protein
+Contig_1	CDS	909438	910265	-	OGCDPPDJ_00989		hypothetical protein
+Contig_1	CDS	910271	912913	-	OGCDPPDJ_00990		hypothetical protein
+Contig_1	CDS	912926	913687	-	OGCDPPDJ_00991		hypothetical protein
+Contig_1	CDS	913728	920618	-	OGCDPPDJ_00992		hypothetical protein
+Contig_1	CDS	920672	921355	-	OGCDPPDJ_00993		hypothetical protein
+Contig_1	CDS	921715	922548	+	OGCDPPDJ_00994		hypothetical protein
+Contig_1	CDS	922571	922765	+	OGCDPPDJ_00995		hypothetical protein
+Contig_1	CDS	922916	923383	-	OGCDPPDJ_00996		hypothetical protein
+Contig_1	CDS	923525	924532	-	OGCDPPDJ_00997	xerC_1	Tyrosine recombinase XerC
+Contig_1	CDS	924546	924974	-	OGCDPPDJ_00998		hypothetical protein
+Contig_1	CDS	924949	925449	-	OGCDPPDJ_00999		hypothetical protein
+Contig_1	CDS	925509	925706	-	OGCDPPDJ_01000		hypothetical protein
+Contig_1	CDS	925699	926052	-	OGCDPPDJ_01001		hypothetical protein
+Contig_1	CDS	926066	927094	-	OGCDPPDJ_01002		hypothetical protein
+Contig_1	CDS	927094	927450	-	OGCDPPDJ_01003		hypothetical protein
+Contig_1	CDS	927514	927741	-	OGCDPPDJ_01004		hypothetical protein
+Contig_1	CDS	927741	928250	-	OGCDPPDJ_01005		hypothetical protein
+Contig_1	CDS	928370	929167	-	OGCDPPDJ_01006		hypothetical protein
+Contig_1	CDS	929210	929920	-	OGCDPPDJ_01007		hypothetical protein
+Contig_1	CDS	929917	930423	-	OGCDPPDJ_01008		hypothetical protein
+Contig_1	CDS	930420	931082	-	OGCDPPDJ_01009		hypothetical protein
+Contig_1	CDS	931092	931478	-	OGCDPPDJ_01010		hypothetical protein
+Contig_1	CDS	931490	931963	-	OGCDPPDJ_01011		hypothetical protein
+Contig_1	CDS	932014	933117	-	OGCDPPDJ_01012		hypothetical protein
+Contig_1	CDS	933146	933610	-	OGCDPPDJ_01013		hypothetical protein
+Contig_1	CDS	933647	934795	-	OGCDPPDJ_01014		hypothetical protein
+Contig_1	CDS	934814	936352	-	OGCDPPDJ_01015		hypothetical protein
+Contig_1	CDS	936376	938124	-	OGCDPPDJ_01016		hypothetical protein
+Contig_1	CDS	938124	939119	-	OGCDPPDJ_01017		hypothetical protein
+Contig_1	CDS	939245	939700	-	OGCDPPDJ_01018		hypothetical protein
+Contig_1	CDS	939714	940913	-	OGCDPPDJ_01019		hypothetical protein
+Contig_1	CDS	940925	941110	-	OGCDPPDJ_01020		hypothetical protein
+Contig_1	CDS	942806	943084	-	OGCDPPDJ_01021	hup	DNA-binding protein HU
+Contig_1	CDS	943347	945854	-	OGCDPPDJ_01022	yonO	DNA-directed RNA polymerase YonO
+Contig_1	CDS	945894	946088	-	OGCDPPDJ_01023		hypothetical protein
+Contig_1	CDS	946600	946782	-	OGCDPPDJ_01024		hypothetical protein
+Contig_1	CDS	947614	947775	+	OGCDPPDJ_01025		hypothetical protein
+Contig_1	CDS	947921	948766	+	OGCDPPDJ_01026		hypothetical protein
+Contig_1	CDS	948785	950002	+	OGCDPPDJ_01027		hypothetical protein
+Contig_1	CDS	950345	950680	+	OGCDPPDJ_01028		hypothetical protein
+Contig_1	CDS	950700	950831	+	OGCDPPDJ_01029		hypothetical protein
+Contig_1	CDS	950824	951048	+	OGCDPPDJ_01030		hypothetical protein
+Contig_1	CDS	951073	951315	+	OGCDPPDJ_01031		hypothetical protein
+Contig_1	CDS	951312	951476	+	OGCDPPDJ_01032		hypothetical protein
+Contig_1	CDS	951554	951778	+	OGCDPPDJ_01033		hypothetical protein
+Contig_1	CDS	951833	952777	+	OGCDPPDJ_01034		hypothetical protein
+Contig_1	CDS	952812	953258	+	OGCDPPDJ_01035		hypothetical protein
+Contig_1	CDS	953349	953786	+	OGCDPPDJ_01036		hypothetical protein
+Contig_1	CDS	953877	954098	+	OGCDPPDJ_01037		hypothetical protein
+Contig_1	CDS	954171	954404	+	OGCDPPDJ_01038		hypothetical protein
+Contig_1	CDS	954487	955152	+	OGCDPPDJ_01039		hypothetical protein
+Contig_1	CDS	955175	955438	+	OGCDPPDJ_01040		hypothetical protein
+Contig_1	CDS	955474	956070	+	OGCDPPDJ_01041		hypothetical protein
+Contig_1	CDS	956202	956426	+	OGCDPPDJ_01042		hypothetical protein
+Contig_1	CDS	956748	956945	+	OGCDPPDJ_01043		hypothetical protein
+Contig_1	CDS	957002	957217	+	OGCDPPDJ_01044		hypothetical protein
+Contig_1	CDS	957253	957687	+	OGCDPPDJ_01045		hypothetical protein
+Contig_1	CDS	957776	958264	+	OGCDPPDJ_01046		hypothetical protein
+Contig_1	CDS	958338	958811	+	OGCDPPDJ_01047		hypothetical protein
+Contig_1	CDS	958842	959198	+	OGCDPPDJ_01048		hypothetical protein
+Contig_1	CDS	959220	959789	+	OGCDPPDJ_01049		hypothetical protein
+Contig_1	CDS	959960	961120	+	OGCDPPDJ_01050	yopK	SPbeta prophage-derived uncharacterized protein YopK
+Contig_1	CDS	961134	961259	+	OGCDPPDJ_01051		hypothetical protein
+Contig_1	CDS	961588	961788	+	OGCDPPDJ_01052		hypothetical protein
+Contig_1	CDS	961791	962108	+	OGCDPPDJ_01053		hypothetical protein
+Contig_1	CDS	962157	962369	+	OGCDPPDJ_01054		hypothetical protein
+Contig_1	CDS	962359	963435	+	OGCDPPDJ_01055	xerC_2	Tyrosine recombinase XerC
+Contig_1	CDS	963542	964924	+	OGCDPPDJ_01056		hypothetical protein
+Contig_1	CDS	964948	965925	+	OGCDPPDJ_01057		hypothetical protein
+Contig_1	CDS	966114	966338	-	OGCDPPDJ_01058		hypothetical protein
+Contig_1	CDS	966521	966739	+	OGCDPPDJ_01059	yopT	SPbeta prophage-derived uncharacterized protein YopT
+Contig_1	CDS	966809	967006	+	OGCDPPDJ_01060		hypothetical protein
+Contig_1	CDS	967118	967312	+	OGCDPPDJ_01061		hypothetical protein
+Contig_1	CDS	967680	968330	+	OGCDPPDJ_01062		hypothetical protein
+Contig_1	CDS	968330	968725	+	OGCDPPDJ_01063	yopX	SPbeta prophage-derived uncharacterized protein YopX
+Contig_1	CDS	968722	969000	+	OGCDPPDJ_01064		hypothetical protein
+Contig_1	CDS	969017	969202	+	OGCDPPDJ_01065		hypothetical protein
+Contig_1	CDS	969305	971467	+	OGCDPPDJ_01066	apaH	Bis(5'-nucleosyl)-tetraphosphatase%2C symmetrical
+Contig_1	CDS	971513	971677	+	OGCDPPDJ_01067		hypothetical protein
+Contig_1	CDS	971686	971889	+	OGCDPPDJ_01068		hypothetical protein
+Contig_1	CDS	971942	972580	+	OGCDPPDJ_01069		hypothetical protein
+Contig_1	CDS	972605	972841	+	OGCDPPDJ_01070		hypothetical protein
+Contig_1	CDS	972878	973555	+	OGCDPPDJ_01071		hypothetical protein
+Contig_1	CDS	974658	974873	+	OGCDPPDJ_01072		hypothetical protein
+Contig_1	CDS	974909	975169	-	OGCDPPDJ_01073		hypothetical protein
+Contig_1	CDS	975294	975695	+	OGCDPPDJ_01074		hypothetical protein
+Contig_1	CDS	976075	976200	+	OGCDPPDJ_01075		hypothetical protein
+Contig_1	CDS	976173	976673	+	OGCDPPDJ_01076		Protein SprT-like protein
+Contig_1	CDS	976674	977480	+	OGCDPPDJ_01077		hypothetical protein
+Contig_1	CDS	977477	977590	+	OGCDPPDJ_01078		hypothetical protein
+Contig_1	CDS	977643	978056	+	OGCDPPDJ_01079		hypothetical protein
+Contig_1	CDS	978122	978934	-	OGCDPPDJ_01080	lig_1	DNA ligase
+Contig_1	CDS	979004	979678	-	OGCDPPDJ_01081	yedK_1	SOS response-associated protein YedK
+Contig_1	CDS	979749	979970	+	OGCDPPDJ_01082		hypothetical protein
+Contig_1	CDS	980005	980370	+	OGCDPPDJ_01083		hypothetical protein
+Contig_1	CDS	980467	981291	+	OGCDPPDJ_01084		hypothetical protein
+Contig_1	CDS	981288	983048	+	OGCDPPDJ_01085		hypothetical protein
+Contig_1	CDS	983133	983426	+	OGCDPPDJ_01086		hypothetical protein
+Contig_1	CDS	983491	983871	+	OGCDPPDJ_01087		hypothetical protein
+Contig_1	CDS	984185	984556	+	OGCDPPDJ_01088		hypothetical protein
+Contig_1	CDS	984578	985492	+	OGCDPPDJ_01089		hypothetical protein
+Contig_1	CDS	985575	986546	+	OGCDPPDJ_01090		hypothetical protein
+Contig_1	CDS	986589	987059	+	OGCDPPDJ_01091		hypothetical protein
+Contig_1	CDS	987074	988588	+	OGCDPPDJ_01092		hypothetical protein
+Contig_1	CDS	988604	989740	+	OGCDPPDJ_01093		hypothetical protein
+Contig_1	CDS	989740	991470	+	OGCDPPDJ_01094	yorK	Putative SPbeta prophage-derived single-strand DNA-specific exonuclease YorK
+Contig_1	CDS	991483	995400	+	OGCDPPDJ_01095	dnaE2	Error-prone DNA polymerase
+Contig_1	CDS	995485	996147	+	OGCDPPDJ_01096		hypothetical protein
+Contig_1	CDS	996256	996414	+	OGCDPPDJ_01097		hypothetical protein
+Contig_1	CDS	996451	996648	+	OGCDPPDJ_01098		hypothetical protein
+Contig_1	CDS	996681	996896	+	OGCDPPDJ_01099	yorP	SPbeta prophage-derived uncharacterized protein YorP
+Contig_1	CDS	996889	997044	+	OGCDPPDJ_01100		hypothetical protein
+Contig_1	CDS	997044	997541	+	OGCDPPDJ_01101	yorR	SPbeta prophage-derived uncharacterized protein YorR
+Contig_1	CDS	997581	997928	-	OGCDPPDJ_01102		hypothetical protein
+Contig_1	CDS	998073	998891	+	OGCDPPDJ_01103	prs_1	Ribose-phosphate pyrophosphokinase
+Contig_1	CDS	998891	1000366	+	OGCDPPDJ_01104		hypothetical protein
+Contig_1	CDS	1000525	1001082	+	OGCDPPDJ_01105		hypothetical protein
+Contig_1	CDS	1001102	1001320	+	OGCDPPDJ_01106		hypothetical protein
+Contig_1	CDS	1001324	1001689	+	OGCDPPDJ_01107		hypothetical protein
+Contig_1	CDS	1001729	1001956	+	OGCDPPDJ_01108		hypothetical protein
+Contig_1	CDS	1002218	1002430	+	OGCDPPDJ_01109		hypothetical protein
+Contig_1	CDS	1002512	1002631	+	OGCDPPDJ_01110		hypothetical protein
+Contig_1	CDS	1002683	1003036	+	OGCDPPDJ_01111		hypothetical protein
+Contig_1	CDS	1003036	1003431	+	OGCDPPDJ_01112	nrdI_1	Protein NrdI
+Contig_1	CDS	1003394	1004116	+	OGCDPPDJ_01113	nrdE_1	Ribonucleoside-diphosphate reductase subunit alpha
+Contig_1	CDS	1004354	1004791	+	OGCDPPDJ_01114	nrdE_2	Ribonucleoside-diphosphate reductase subunit alpha
+Contig_1	CDS	1005093	1006025	+	OGCDPPDJ_01115	nrdE_3	Ribonucleoside-diphosphate reductase subunit alpha
+Contig_1	CDS	1005995	1006177	-	OGCDPPDJ_01116		hypothetical protein
+Contig_1	CDS	1006293	1007282	+	OGCDPPDJ_01117	nrdF_1	Ribonucleoside-diphosphate reductase subunit beta
+Contig_1	CDS	1007279	1007521	+	OGCDPPDJ_01118	trxA_2	Thioredoxin
+Contig_1	CDS	1007567	1007995	+	OGCDPPDJ_01119	yncF_1	putative deoxyuridine 5'-triphosphate nucleotidohydrolase YncF
+Contig_1	CDS	1008089	1008706	-	OGCDPPDJ_01120		hypothetical protein
+Contig_1	CDS	1009019	1009324	+	OGCDPPDJ_01121		hypothetical protein
+Contig_1	CDS	1009308	1009523	+	OGCDPPDJ_01122		hypothetical protein
+Contig_1	CDS	1009566	1009982	+	OGCDPPDJ_01123		hypothetical protein
+Contig_1	CDS	1010039	1010878	+	OGCDPPDJ_01124	thyA1_1	Thymidylate synthase 1
+Contig_1	CDS	1010878	1011399	+	OGCDPPDJ_01125	dfrA	Dihydrofolate reductase
+Contig_1	CDS	1011524	1011877	+	OGCDPPDJ_01126		hypothetical protein
+Contig_1	CDS	1011890	1012540	+	OGCDPPDJ_01127		hypothetical protein
+Contig_1	CDS	1012697	1012978	+	OGCDPPDJ_01128		hypothetical protein
+Contig_1	CDS	1013069	1013287	-	OGCDPPDJ_01129	sspC	Acid-soluble spore protein C
+Contig_1	CDS	1013407	1014234	+	OGCDPPDJ_01130		hypothetical protein
+Contig_1	CDS	1014281	1014586	+	OGCDPPDJ_01131		hypothetical protein
+Contig_1	CDS	1014637	1014786	+	OGCDPPDJ_01132		hypothetical protein
+Contig_1	CDS	1014870	1015292	+	OGCDPPDJ_01133		hypothetical protein
+Contig_1	CDS	1015267	1015689	+	OGCDPPDJ_01134		hypothetical protein
+Contig_1	CDS	1015670	1016218	+	OGCDPPDJ_01135		hypothetical protein
+Contig_1	CDS	1016219	1016392	+	OGCDPPDJ_01136		hypothetical protein
+Contig_1	CDS	1016389	1016823	+	OGCDPPDJ_01137		hypothetical protein
+Contig_1	CDS	1016928	1017059	+	OGCDPPDJ_01138		hypothetical protein
+Contig_1	CDS	1017061	1017342	-	OGCDPPDJ_01139		hypothetical protein
+Contig_1	CDS	1017378	1017968	+	OGCDPPDJ_01140		hypothetical protein

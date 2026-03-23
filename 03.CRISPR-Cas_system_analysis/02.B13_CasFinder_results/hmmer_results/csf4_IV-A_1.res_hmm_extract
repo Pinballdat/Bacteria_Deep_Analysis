@@ -1,0 +1,7 @@
+# gene: csf4_IV-A_1 extract from CasFinder_res/hmmer_results/csf4_IV-A_1.search_hmm.out hmm output
+# profile length= 666
+# i_evalue threshold= 0.010
+# coverage threshold= 0.400
+# hit_id	replicon_name	position_hit	hit_sequence_length	gene_name	i_eval	score	profile_coverage	sequence_coverage	begin	end
+OGCDPPDJ_00896	B13_annot	887	931	csf4_IV-A_1	1.500e-53	180.400	0.904	0.690	255	896
+OGCDPPDJ_00920	B13_annot	911	641	csf4_IV-A_1	4.600e-32	109.400	0.908	0.922	27	617

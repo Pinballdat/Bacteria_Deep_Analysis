@@ -1,0 +1,186 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /home/datnguyen/Downloads/B13_KimCo_16122025/CRISPR-Cas_system/CasFinder_data/CasFinder/profiles/csf4_IV-A1_2.hmm
+# target sequence database:        ./B13_annot/B13_annot.faa
+# output directed to file:         CasFinder_res/hmmer_results/csf4_IV-A1_2.search_hmm.out
+# sequence reporting threshold:    E-value <= 0.1
+# number of worker threads:        1
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       csf4_IV-A1_2  [M=802]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence       Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------       -----------
+    1.2e-20   71.3   0.0    3.2e-09   33.5   0.0    3.2  3  OGCDPPDJ_00896  3'-5' exonuclease DinG
+    2.8e-12   43.6   0.8    9.7e-07   25.3   0.0    4.0  5  OGCDPPDJ_00920  putative ATP-dependent helicase DinG 
+    2.5e-07   27.2   0.2    4.1e-07   26.5   0.2    1.2  1  OGCDPPDJ_02766  primosomal protein N'
+    0.00039   16.7   0.3     0.0015   14.8   0.0    1.9  3  OGCDPPDJ_04195  putative ATP-dependent RNA helicase YfmL
+  ------ inclusion threshold ------
+      0.014   11.5   0.0      0.018   11.2   0.0    1.1  1  OGCDPPDJ_02698  Flagellar biosynthesis protein FlhF
+      0.016   11.3   0.0      0.022   10.9   0.0    1.3  1  OGCDPPDJ_00208  Primosomal protein DnaI
+
+
+Domain annotation for each sequence (and alignments):
+>> OGCDPPDJ_00896  3'-5' exonuclease DinG
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   15.5   0.0   1.2e-06   0.00088     121     239 ..     259     381 ..     228     400 .. 0.77
+   2 !   18.2   0.2   1.9e-07   0.00014     321     391 ..     406     475 ..     396     508 .. 0.73
+   3 !   33.5   0.0   4.3e-12   3.2e-09     606     780 ..     735     901 ..     715     906 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 15.5 bits;  conditional E-value: 1.2e-06
+    csf4_IV-A1_2 121 vreeqvqlfkelakaLekGrivvvEaaTGvGKtrailalalqlaaekgetaviaaptlavlrqlvaelraLrkasvel.vdlrlvlGrreFVsve 214
+                      r+ q+ +++e+a+a  +   +++Ea  G+GKt   l  a+ +a++ ++ ++i++ +  + +q++++   +++   +  v + ++ G+  +    
+  OGCDPPDJ_00896 259 KRDGQMMMMREVADAFANREHALIEAPPGIGKTIGYLIPAALFAKKSKKPVIISTYSTLLQQQILTKDLPIVQDLFPFpVTAAILKGQSHYLCLY 353
+                     6999*****************************99888888867766666777777666666766666777888888868889999999999999 PP
+
+    csf4_IV-A1_2 215 rlaeyladaeeseeg...kaaveaWlea 239
+                     +  ++l+ ++++  +   ka++  Wl +
+  OGCDPPDJ_00896 354 KFEQVLHEEDDNYDAvltKAQLLVWLTE 381
+                     9999998766654431114447777765 PP
+
+  == domain 2  score: 18.2 bits;  conditional E-value: 1.9e-07
+    csf4_IV-A1_2 321 ykdsaelkaskeaiaelaemkad.lrealdalqrredllskevaadagvLPeidlLivDEaHlLEenfasiy 391
+                      +ds +++ s++ i  ++ +k++ +r++  ++  ++ ll +  a++  +LPe ++ i+DEaH +E ++++ +
+  OGCDPPDJ_00896 406 DDDSYKRSRSEHVIGFYERAKQIaMRSD--LVITNHSLLLTDEASQKKRLPESGTFIIDEAHHFERAASEHL 475
+                     3445566777777888888876524544..455566788888899**********************99865 PP
+
+  == domain 3  score: 33.5 bits;  conditional E-value: 4.3e-12
+    csf4_IV-A1_2 606 edaWldeiaelirsiaesaeGGtLVLlTSyaevealakrLaelg.driieqgakvslsaqkakylallraGkrPiwLavGaAWTGvdlsddslas 699
+                     + + ++++a +i  +a + +  +LVL TS+   + +++ L++      i+  a+  +  +  k  ++ +  ++ i+L+    W Gvd  +d+l+ 
+  OGCDPPDJ_00896 735 QPEFIQDTARYIELMAKEKQPKILVLFTSHDMLKKVHQELKHNMsASGIQLLAQGITGGSPGKLMKTFKTSNQAILLGTNHFWEGVDFPGDELTT 829
+                     3488999********************************99854266677777777778888999999999********************9988 PP
+
+    csf4_IV-A1_2 700 gekesatdDkvLtdLvI..prlPiglNrslthlrRlqqtgvaaevleaaillkQGlGRlvRreglpknrriwvlDgRvtdpea 780
+                               +++ L    p  P+ + +    +++ ++ +    + ea++ ++QG+GRl R+ g +    i +lD R+++  +
+  OGCDPPDJ_00896 830 ---------VMIVRLPFrsPDHPLHAAKCELARKKGKNPFQTVSLPEAVLTFRQGIGRLLRSAGDK--GTIIILDRRIKTAGY 901
+                     .........566666433366666666665555555555556699********************9..89********98765 PP
+
+>> OGCDPPDJ_00920  putative ATP-dependent helicase DinG 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   25.3   0.0   1.3e-09   9.7e-07     121     188 ..      39     106 ..      29     148 .. 0.89
+   2 ?   -2.2   0.0      0.27     2e+02     293     308 ..     213     228 ..     206     242 .. 0.79
+   3 !    7.0   0.1   0.00046      0.34     362     400 ..     241     279 ..     229     358 .. 0.73
+   4 ?   -1.6   0.0      0.18   1.3e+02     610     640 ..     475     504 ..     461     513 .. 0.81
+   5 !    6.1   0.0   0.00081       0.6     746     767 ..     595     616 ..     578     621 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 25.3 bits;  conditional E-value: 1.3e-09
+    csf4_IV-A1_2 121 vreeqvqlfkelakaLekGrivvvEaaTGvGKtrailalalqlaaekgetaviaaptlavlrqlvael 188
+                      r+eqv ++ +l+ a ++ +++++Ea+ G+GKt++ l  a  +a   g+ a+ia +   +++qlv++ 
+  OGCDPPDJ_00920  39 LRDEQVFMAFQLERAFKEKKVMFAEAGVGTGKTLVYLLFAISYARYVGKPAIIACADETLIEQLVKKE 106
+                     79***************************************************************975 PP
+
+  == domain 2  score: -2.2 bits;  conditional E-value: 0.27
+    csf4_IV-A1_2 293 krvdeeaelvlCtHaM 308
+                     + + + ++l++C+H  
+  OGCDPPDJ_00920 213 DYYRKSTDLIICSHDF 228
+                     567899********75 PP
+
+  == domain 3  score: 7.0 bits;  conditional E-value: 0.00046
+    csf4_IV-A1_2 362 vaadagvLPeidlLivDEaHlLEenfasiysdtlslral 400
+                      +++  +LP+    + DE+HlLE ++ ++++  ++  +l
+  OGCDPPDJ_00920 241 REGQLPLLPDHSAVVFDEGHLLEFAAQKALTYRVKQSTL 279
+                     5678899*****************999999988775554 PP
+
+  == domain 4  score: -1.6 bits;  conditional E-value: 0.18
+    csf4_IV-A1_2 610 ldeiaelirsiaesaeGGtLVLlTSyaevea 640
+                      +++ae+i  i  + +G tLVL  S+ e + 
+  OGCDPPDJ_00920 475 EQKTAETIETIK-RYKGRTLVLFPSFEELNE 504
+                     578999999885.789**********99876 PP
+
+  == domain 5  score: 6.1 bits;  conditional E-value: 0.00081
+    csf4_IV-A1_2 746 aillkQGlGRlvRreglpknrr 767
+                     +++ +QG+GRl+R+++   ++ 
+  OGCDPPDJ_00920 595 LLRVRQGIGRLIRSNQDSGSIH 616
+                     6789*********987654555 PP
+
+>> OGCDPPDJ_02766  primosomal protein N'
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   26.5   0.2   5.5e-10   4.1e-07      26     206 ..     174     354 ..     155     357 .. 0.70
+
+  Alignments for each domain:
+  == domain 1  score: 26.5 bits;  conditional E-value: 5.5e-10
+    csf4_IV-A1_2  26 daaksllaealekgltadpeavetslvkrf.slvvppdlhaklkrlsda...egglglsllaagLlkalarnehlasredapeavvelegldakn 116
+                     ++++ + a+a +++l  ++e    +++k++  l ++ ++ +++k  + +   +++++ + + + + k l++ e ++    +   +++ +++ +k 
+  OGCDPPDJ_02766 174 KMVRHIQANASKEELAKQAEGLSRQAAKQQaILHFLISEPEGVKIPAAElckKTDTSSATIKTLIQKGLLK-ESYE----EVYRDPYQDKMFKKT 263
+                     46666666666666655444444333333313333333333333333323347888888888888888888.4444....445555666666667 PP
+
+    csf4_IV-A1_2 117 erlgvreeqvqlfkelakaLek..GrivvvEaaTGvGKtrailalalqlaaekgetaviaaptlavlrqlvaelraLrkasvelvdlrlvlG 206
+                     e l   +eq   f+ ++++L     ++ +  + TG+GKt + l +  + + +kg+ a++ +p ++++ q+v+ ++     +v+++++ l+ G
+  OGCDPPDJ_02766 264 EPLPLTDEQRAAFEPIRETLDSdeHKVFLLHGVTGSGKTEIYLQSIEK-VLAKGKEAIVLVPEISLTPQMVNRFKGRFGSQVAVMHSGLSTG 354
+                     77888899999999999999985567**********************.999**********************988888888777777666 PP
+
+>> OGCDPPDJ_04195  putative ATP-dependent RNA helicase YfmL
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   14.8   0.0     2e-06    0.0015     127     190 ..      29      94 ..      22     121 .. 0.77
+   2 ?   -0.9   0.1      0.11        81     343     400 ..     118     180 ..      93     258 .. 0.60
+   3 ?   -2.7   0.0      0.37   2.7e+02     661     692 ..     276     307 ..     243     310 .. 0.78
+
+  Alignments for each domain:
+  == domain 1  score: 14.8 bits;  conditional E-value: 2e-06
+    csf4_IV-A1_2 127 qlfkelakaLekGrivvvEaaTGvGKtrailalalql..aaekgetaviaaptlavlrqlvaelra 190
+                     ++ ++ a+ +  G+ v++E+ TG+GKt+a +   l+     +k   avi ap+  ++ q+ +  + 
+  OGCDPPDJ_04195  29 PVQEQAAQLIMDGKDVIAESPTGTGKTLAYALPVLERikPEQKHPQAVILAPSRELVMQIFQVIQD 94 
+                     677788888999**9***************99999963223444579******9999887655433 PP
+
+  == domain 2  score: -0.9 bits;  conditional E-value: 0.11
+    csf4_IV-A1_2 343 dlrealdalqrredllskevaadagvLPeidlLivDEaHlL.....Eenfasiysdtlslral 400
+                     +l++  + +    ++ ++ ++a    + e+++++ DEa +L      e++ +i+ +tl+ r+l
+  OGCDPPDJ_04195 118 KLKKHPHIIVGTPGRVFELIKAKKLKMHEVKTIVLDEADQLilpehRETIKQIIKTTLRDRQL 180
+                     566666666666777777777777777788888888887774443234555555555555554 PP
+
+  == domain 3  score: -2.7 bits;  conditional E-value: 0.37
+    csf4_IV-A1_2 661 lsaqkakylallraGkrPiwLavGaAWTGvdl 692
+                     +++ +ak  a+ ++G+ P++La   A  G+d+
+  OGCDPPDJ_04195 276 KKMERAKIIAAFENGEFPLLLATDIAARGLDI 307
+                     45667777788888888999988888888887 PP
+
+>> OGCDPPDJ_02698  Flagellar biosynthesis protein FlhF
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.2   0.0   2.4e-05     0.018     142     197 ..     178     235 ..     126     258 .. 0.77
+
+  Alignments for each domain:
+  == domain 1  score: 11.2 bits;  conditional E-value: 2.4e-05
+    csf4_IV-A1_2 142 vvvEaaTGvGKtrailalal.qlaaekgetaviaaptlavlr.qlvaelraLrkasve 197
+                     +v  ++TG GKt +++ la+  +  ++++ a i++ t+ ++    ++++ +L +a  e
+  OGCDPPDJ_02698 178 IVLFGSTGAGKTTTLAKLAAiSMLEKHKKIAFITTDTYRIAAvEQLKTYAELLQAPLE 235
+                     56679***********98762558888899*******877532456788888777666 PP
+
+>> OGCDPPDJ_00208  Primosomal protein DnaI
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.9   0.0     3e-05     0.022     139     205 ..     161     226 ..     103     266 .. 0.71
+
+  Alignments for each domain:
+  == domain 1  score: 10.9 bits;  conditional E-value: 3e-05
+    csf4_IV-A1_2 139 GrivvvEaaTGvGKtrailalalqlaaekgetaviaaptlavlrqlvael.raLrkasvelvdlrlvl 205
+                     G+     +  GvGKt +++a a++la ++    ++ +p    +r l + l  +  +++ ++v+ + vl
+  OGCDPPDJ_00208 161 GKGLYLYGKFGVGKTFMLAAIANELAEKEYSSMIVYVP--EFVRELKNSLqDQTLEEKLNMVKTTPVL 226
+                     6667777888**************99999999999999..7888888888423445666667766666 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (802 nodes)
+Target sequences:                       4433  (1276326 residues searched)
+Passed MSV filter:                       247  (0.0557185); expected 88.7 (0.02)
+Passed bias filter:                      161  (0.0363185); expected 88.7 (0.02)
+Passed Vit filter:                        35  (0.00789533); expected 4.4 (0.001)
+Passed Fwd filter:                         6  (0.00135349); expected 0.0 (1e-05)
+Initial search space (Z):               4433  [actual number of targets]
+Domain search space  (domZ):               6  [number of targets reported over threshold]
+# CPU time: 0.17u 0.00s 00:00:00.17 Elapsed: 00:00:00.16
+# Mc/sec: 6259.47
+//
+[ok]
